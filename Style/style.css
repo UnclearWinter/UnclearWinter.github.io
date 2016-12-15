@@ -1,294 +1,81 @@
-﻿@charset "utf-8";
-@font-face{
-    font-family: 'Minecrafter';
-    src: url('.../Fonts/Minecrafter.ttf');
-}
-.a{
-    color: #D1D1D1;
-}
-    .a:active {
-        color: #D0D0D0;
-    }
-    .a:hover {
-        color: #999999;
-    }
-a {
-    color: #D1D1D1;
-}
-    a:active {
-        color: #D0D0D0;
-    }
-    a:hover {
-        color: #999999;
-    }
-body {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #000000;
-    background-image: url(../Image/Backgrounds/Background.png);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-color: #000;
-    font-size: 36px;
-    position: relative;
-}
-button {
-    color: #000;
-    background-color: #ECECEC;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-}
-.cButton {
-    background-color: #d7d7d7;
-    border: thin solid #000;
-    color: #000000;
-    text-decoration: none;
-    /* [disabled]background-image: url(../Image/Buttons.gif); */
-    font-size: 16px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    cursor: url(../Cursor/k1llerk4se.cur), default;
-}
-    .cButton:active {
-        color: #727272;
-    }
-    .cButton:hover {
-        color: #747373;
-    }.button {
-    background-color: #0099FF;
-    border: thin solid #000;
-    color: #FFF;
-    text-decoration: none;
-    /* [disabled]background-image: url(../Image/Buttons.gif); */
-    font-size: 16px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    cursor: url(../Cursor/k1llerk4se.cur), default;
-}
-    .button:active {
-        color: #D0D0D0;
-    }
-    .button:hover {
-        color: #999999;
-    }
-.CenterContent {
-    z-index:0;
-    position: absolute;
-    height: auto;
-    width: 100%;
-    text-align: center;
-    white-space: normal;
-    display: block;
-    clear: both;
-}
-.CenterTable{
-    position:fixed;
-    height:100%;
-    width:100%;
-    align-items:center;
-    align-self:center;
-}
-.content {
-    font-family: "MS Serif", "New York", serif;
-    font-size: 16px;
-    font-style: normal;
-    line-height: normal;
-    font-weight: bolder;
-    font-variant: normal;
-    z-index:0;
-    /* [disabled]text-transform: capitalize; */
-    color: #FFF;
-    /* [disabled]text-decoration: blink; */
-    /* [disabled]background-attachment: scroll; */
-    /* [disabled]background-color: .000000; */
-    /* [disabled]background-repeat: no-repeat; */
-    /* [disabled]background-position: left center; */
-    /* [disabled]vertical-align: middle; */
-    word-spacing: normal;
-    border: thin none #006;
-    position: relative;
-    height: auto;
-    width: inherit;
-    /* [disabled]page-break-before: auto; */
-    text-align: center;
-    margin: 20px auto 0px auto;
-}
-.Copyright{
-    position:fixed;
-    text-align: left;
+@@charset "UTF-8";
+@@font-face {
 
 }
-#Desktop {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #FFF;
-    white-space: normal;
-    display: block;
-    height: auto;
-    width: 100%;
-    position: relative;
-    left: auto;
-    top: auto;
-    right: auto;
-    bottom: auto;
+body{
+  font-family: fantasy;
+  color:#000000;
+  background-color:#a9a9a9;
 }
-.Footer {
-    position: absolute;
-    color: antiquewhite;
-    bottom: 0px;
-    height: 25%;
-    width: 25%;
-    padding-top: 20px, 0px, 0px, 0px;
-    left: 75%;
-    top: 725%;
-    right: 20%;
-    font-size: 10px;
+.a{
+  color:#131313;
 }
-.header {
-    font-family: Minecrafter;
-    background-color: #ECECEC;
-    /* [disabled]border: thin dotted #09F; */
-    position: relative;
-    visibility: inherit;
-    height: auto;
-    width: 910px;
-    font-size: 36px;
-    font-weight: bolder;
-    margin: 0px auto;
-    color: #06F;
-    /* [disabled]background-image: url(../Image/Game-of-Light-YouTube-Channel-Art-Template.png); */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-#Laptop {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #ECECEC;
-    white-space: normal;
-    display: block;
-    height: auto;
-    width: 100%;
-    position: relative;
-    left: auto;
-    top: auto;
-    right: auto;
-    bottom: auto;
-}
-.LeftSide {
-    float: right;
-    height: auto;
-    width: auto;
-    position: absolute;
-    right: 0px;
-    padding-left: 10px;
-}
-li {
-    font-family: "Comic Sans MS", cursive;
-    display: inline;
-}
-.Menu1 {
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 14px;
-    /* [disabled]border: 1px dotted #09F; */
-    background-color: #FFFFFF;
-    width: 910px;
-    color: #00F;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-.Sidebar {
-    float: right;
-    position: absolute;
-    z-index:100;
-    left: 0px;
-    width: 100px;
-    height: 101px;
-}
-.SideButton {
-    background-color: #ECECEC;
-    border: thin solid #000;
-    float: right;
-    color: #000;
-    text-decoration: none;
-    /* [disabled]background-image: url(../Image/Buttons.gif); */
-    font-size: 16px;
+  .a:active{
+    color:#1d1d1d;
+  }
+  .a:hover{
+    color:#8e8e8e;
+  }
+.button{
+  color:#000000;
+  background-color:#969798;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    padding: 5px;
-    margin-top: 100%;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    position: relative;
-    height: auto;
-    width: auto;
 }
-    .SideButton:active {
-        background-color: #ECECEB;
-    }
-    .SideButton:hover {
-        background-color: #C9C9CA;
-    }
-.SideContentContact {
-    white-space: normal;
-    height: auto;
-    z-index:0;
-    width: 60%;
-    position: absolute;
-    right: 20%;
-    left: 20%;
-    display: block;
-    clear: both;
-    float: none;
+a{
+  color:#131313;
 }
-#Wishlist {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: #FFF;
-	white-space: normal;
-	display: block;
-	height: auto;
-	width: 150px;
-	position: relative;
-	left: auto;
-	top: auto;
-	right: auto;
-	bottom: auto;
+  a:active{
+    color:#1d1d1d;
+  }
+  a:hover{
+    color:#8e8e8e;
+  }
+button{
+  color:#000000;
+  background-color:#969798;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
 }
-#Wrapper{
-    margin-left:auto;
-    margin-right:auto;
-    width:960px;
+.Header{
+  font-family:cursive;
+  background-color:#000000;
+  position: relative;
+  visibility: inherit;
+  height: auto;
+  width: 910px;
+  font-size: 44px;
+  font-weight: bolder;
+  margin: 0px auto;
+  color:#f6f8ff;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-#Collection{
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    width: 60%;
+.Content{
+  font-family: cursive;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-variant: normal;
+  z-index: 0;
+  color: #121212;
+  word-spacing: normal;
+  border: thin none;
+  position: relative;
+  height: auto;
+  width: inherit;
+  text-align: center;
+  margin: 20px auto 0px auto;
 }
-   #Collection table, #Collection th,#Collection td {
-        border: 1px dotted white;
-        width: 60%;
-        padding: 4px 4px 4px 4px;
-        align-content: center;
-        background-color: #003a76;
+.Sidebar{
+  float: right;
+  position: absolute;
+  z-index:100;
+  left:0px;
+  width:100px;
+  height:auto;
 }
- 
