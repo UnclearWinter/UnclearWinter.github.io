@@ -5,15 +5,27 @@
     <meta name="author" content="K1llerk4se" />
     <title> &raquo; K1ller4se &laquo;</title>
     <link href="Style/style.css" rel="stylesheet" type="text/css" />
+    <link href="Style/Buttons.css" rel="stylesheet" type="text/css" />
+     <script src="Scripts/Buttons.js"></script>
   </head>
   <body>
     <div class="Content">
       <div class="Header">Continue?</div>
       <p>"Hello I'm Mikel, I'm a random gamer that does some coding and fun stuff like that."</p>
     </div>
-    <div class="Sidebar">
-      <button type="button" onclick="parent.location = 'http://steamcommunity.com/id/k1llerk4se/'">Steam</button>
-      <button type="button" onclick="parent.location = 'ZaamMeter.html'">ZaamMeter</button>
-    </div>
+      <div class="Sidebar">
+        <button class="dropbtn" onclick="parent.location = 'index.html'">Home</button>
+        <button class="dropbtn" onclick="parent.location = 'ZaamMeter.html'">ZaamMeter</button>
+        <div class="dropdown">
+          <button class="dropbtn">Links</button>
+          <div class="dropdown-content">
+            <a href="http://steamcommunity.com/id/k1llerk4se/">Steam</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+      <div class="Footer"><a href="http://steamsignature.com"><img src="https://steamsignature.com/profile/default/76561198072380081.png" alt=""/></a></div>
+
   </body>
 </html>

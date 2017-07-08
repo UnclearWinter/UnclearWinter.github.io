@@ -16,14 +16,6 @@ body{
   .a:hover{
     color:#8e8e8e;
   }
-.button{
-  color:#000000;
-  background-color:#969798;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-}
 a{
   color:#131313;
 }
@@ -33,14 +25,6 @@ a{
   a:hover{
     color:#8e8e8e;
   }
-button{
-  color:#000000;
-  background-color:#969798;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-}
 .Header{
   font-family:cursive;
   background-color:#000000;
@@ -71,11 +55,21 @@ button{
   text-align: center;
   margin: 20px auto 0px auto;
 }
+.Footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000000;
+  color:#f6f8ff;
+  text-align: center;
+}
 .Sidebar{
   float: right;
   position: absolute;
   z-index:100;
   left:0px;
-  width:100px;
+  width:105px;
   height:auto;
 }
