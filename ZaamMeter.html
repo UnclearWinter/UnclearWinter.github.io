@@ -5,16 +5,32 @@
     <meta name="author" content="K1llerk4se" />
     <title> &raquo; ZaamMeter &laquo;</title>
     <link href="Style/style.css" rel="stylesheet" type="text/css" />
+    <link href="Style/Buttons.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div class="Content">
       <div class="Header">ZaamMeter</div>
+      <div class="SubHeader">
+        <button class="dropbtn" onclick="parent.location = 'index.html'">Home</button>
+        <button class="dropbtn" onclick="parent.location = 'ZaamMeter.html'">ZaamMeter</button>
+      </div>
       <p>"This is the psudeo-webpage for my rainmeter project titled ZaamMeter"</p>
       <p>More information can be found on the <a href="https://bitbucket.org/k1llerk4ze/zaammeter/wiki/Home">wiki</a></p>
     </div>
-    <div class="Sidebar">
-      <button type="button" onclick="parent.location = 'http://steamcommunity.com/id/k1llerk4se/'">Steam</button>
-      <button type="button" onclick="parent.location = 'Index.html'">Home</button>
-    </div>
+      <div class="Sidebar">
+        <div class="dropdown">
+          <button class="dropbtn">Links</button>
+          <div class="dropdown-content">
+            <a href="https://discord.gg/wmjVH9">Discord</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Gaming</button>
+          <div class="dropdown-content">
+            <a href="http://steamcommunity.com/id/k1llerk4se/">Steam</a>
+          </div>
+        </div>
+      </div>
+      <div class="Footer"><img src="https://steamsignature.com/profile/default/76561198072380081.png" alt=""/></div>
   </body>
 </html>
