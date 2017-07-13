@@ -74,19 +74,17 @@ a{
   color:#f6f8ff;
   text-align: center;
 }
-.Sidebar{
-  float: right;
-  position: fixed;
-  z-index:100;
-  left:0px;
-  width:105px;
-  height:auto;
+.InSidebar{
+  position:absolute;
+  top:0;
+  right:0;
+  width:150px;
+  height:100%;
 }
-/* .InSidebar{
-  float: left;
-  position: fixed;
-  z-index:900;
-  left:0px;
-  width:105px;
-  height:auto;
-} */
+.Sidebar{
+  position:absolute;
+  top:0;
+  left:0;
+  width:150px;
+  height:100%;
+}
