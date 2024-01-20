@@ -3,14 +3,15 @@
     <head>
         <meta http-equiv="Content-Type"  content="text/html"; charset="utf-8" />
         <meta name="author" content="K1llerk4se" />
-        <title> &raquo; MMOs I Play &laquo;</title>
+        <title> &raquo; Friend Codes &laquo;</title>
         <link href="Style/style.css" rel="stylesheet" type="text/css" />
         <link href="Style/Buttons.css" rel="stylesheet" type="text/css" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <script src="Scripts/Table.js" defer></script>
     </head>
     <body>
         <div class="Content">
-            <div class="Header">MMOs I Play</div>
+            <div class="Header">Friend Codes</div>
                 <div class="SubHeader">
                     <p>
                         <button class="dropbtn" onclick="parent.location = 'index.html'">Home</button>
@@ -24,26 +25,26 @@
                         <button class="dropbtn" onclick="parent.location = 'FCodes.html'">Fcodes</button>
                     </p>
                 </div>
-            <p>
-                <div class="dropdown">
-                    <button class="dropbtn">OsrsMain</button>
-                    <div class="dropdown-content">
-                        <a href="https://www.wiseoldman.net/players/k1llerk4se" target="_blank" rel="noopener noreferrer">wiseoldman</a>
-                        <a href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=k1llerk4se" target="_blank" rel="noopener noreferrer">Osrs Hiscores</a>
-                        <a href="https://collectionlog.net/log/k1llerk4se/" target="_blank" rel="noopener noreferrer">Osrs CLog</a>
+                <p>
+                    <div class="search-wrapper">
+                        <label for="search">Search Games</label>
+                        <input type="search" id="search" data-search-input>
                     </div>
-                    <button class="dropbtn">Osrs1Def</button>
-                    <div class="dropdown-content">
-                        <a href="https://www.wiseoldman.net/players/k1llerk4ze" target="_blank" rel="noopener noreferrer">wiseoldman</a>
-                        <a href="https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=k1llerk4ze" target="_blank" rel="noopener noreferrer">Osrs Hiscores</a>
-                        <a href="https://collectionlog.net/log/k1llerk4ze/" target="_blank" rel="noopener noreferrer">Osrs CLog</a>
+                    <div class="Game-cards" data-game-container>
                     </div>
-                </div>
-            </p>
-            <p>
-                
-            </p>
-            <div class="Sidebar">
+                    <template data-game-template>
+                        <div class="card">
+                            <div class="header" data-header></div>
+                            <div class="body" data-body></div>
+                        </div>
+                    </template>
+                </p>
+                <p>
+                    <table id="table">
+                        
+                    </table>
+                </p> 
+                <div class="Sidebar">
                 <p>Com Link</p>
                 <div class="dropdown">
                     <button class="dropbtn">Links</button>

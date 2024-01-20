@@ -65,7 +65,7 @@ a{
   margin: 20px auto 0px auto;
 }
 .Footer{
-  position: absolute;
+  position: bottom;
   right: 0;
   bottom: 0;
   left: 0;
@@ -87,4 +87,48 @@ a{
   left:0;
   width:150px;
   height:100%;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(7, 7, 7);
+  border-collapse: collapse;
+}
+td,th {
+  border: 1px solid rgb(7, 7, 7);
+  padding: 8px;
+  text-align: center;
+  vertical-align: top;
+  background-color: rgba(89, 0, 255, 0.489);
+  border-style: dotted;
+}
+.search-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+}
+input{
+  font-size: 1rem;
+}
+.Game-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: .25rem;
+  margin-top: 1rem;
+}
+.card{
+  border: #000000 dotted 1px;
+  background-color: darkgray;
+  padding: .5rem;
+}
+.card > .header{
+  margin: .25rem;
+}
+.card > .body{
+  font-size: .75rem;
+  color: rgb(7, 7, 7);
+}
+.hide{
+  display: none;
 }
