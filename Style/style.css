@@ -4,23 +4,23 @@
 }
 body{
   font-family: fantasy;
-  color:#000000;
-  background-color:#a9a9a9;
+  color:#1767d1;
+  background-color:#000000;
 }
 .a{
-  color:#131313;
+  color:#1767d1;
 }
   .a:active{
-    color:#1d1d1d;
+    color:#1767d1;
   }
   .a:hover{
     color:#8e8e8e;
   }
 a{
-  color:#131313;
+  color:#1767d1;
 }
   a:active{
-    color:#1d1d1d;
+    color:#1767d1;
   }
   a:hover{
     color:#8e8e8e;
@@ -35,18 +35,18 @@ a{
   font-size: 44px;
   font-weight: bolder;
   margin: 0px auto;
-  color:#f6f8ff;
+  color:#1767d1;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 .SubHeader{
   font-family:cursive;
-  background: darkgrey;
+  background: #000000;
   position: relative;
   height: auto;
   width: 910px;
   margin: 0px auto;
-  color:#1d1d1d;
+  color:#1767d1;
 }
 .Content{
   font-family: cursive;
@@ -55,7 +55,7 @@ a{
   font-weight: bold;
   font-variant: normal;
   z-index: 0;
-  color: #121212;
+  color: #1767d1;
   word-spacing: normal;
   border: thin none;
   position: relative;
@@ -65,7 +65,7 @@ a{
   margin: 20px auto 0px auto;
 }
 .Footer{
-  position: bottom;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
@@ -91,15 +91,15 @@ a{
 table {
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid rgb(7, 7, 7);
+  border: 1px solid #1767d1;
   border-collapse: collapse;
 }
 td,th {
-  border: 1px solid rgb(7, 7, 7);
+  border: 1px solid #1767d1;
   padding: 8px;
   text-align: center;
   vertical-align: top;
-  background-color: rgba(89, 0, 255, 0.489);
+  background-color: #000000;
   border-style: dotted;
 }
 .search-wrapper{
@@ -131,4 +131,22 @@ input{
 }
 .hide{
   display: none;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+footer{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000000;
+  color:#1767d1;
+  text-align: center;
 }
